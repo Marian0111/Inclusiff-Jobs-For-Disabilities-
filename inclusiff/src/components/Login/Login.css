@@ -1,0 +1,36 @@
+/* src/Login.css */
+
+.username-input {
+    position: relative;
+    min-width: 40vh;
+    /*max-width: 40%; !* or any other value *!*/
+    margin: 0 auto; /* Centering the element if needed */
+}
+
+.password-input {
+    position: relative;
+    min-width: 40vh;
+    /*max-width: 40%; !* or any other value *!*/
+    margin: 0 auto; /* Centering the element if needed */
+}
+
+.submit-button {
+    position: relative;
+}
+
+.submit-button:hover {
+    background-color: #b864cb; /* Darken the button on hover */
+    color: white; /* Change text color */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Full viewport height */
+    flex-direction: column; /* Stack children vertically */
+}
+
+
+
+

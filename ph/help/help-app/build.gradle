@@ -1,0 +1,16 @@
+dependencies {
+    implementation project(':help-api')
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.flywaydb:flyway-core'
+    implementation 'org.mapstruct:mapstruct:1.5.5.Final'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux:3.1.2'
+    implementation 'com.h2database:h2:2.2.220'
+
+    runtimeOnly 'org.postgresql:postgresql'
+
+    testImplementation 'com.h2database:h2:2.2.220'
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.5.Final'
+}

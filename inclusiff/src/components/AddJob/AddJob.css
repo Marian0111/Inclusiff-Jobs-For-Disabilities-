@@ -1,0 +1,16 @@
+.addjob-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    width: 100%; /* Ensure container takes full width */
+}
+
+.addjob-input {
+    position: relative;
+    margin: 0 auto;
+    min-width: 50vw; /* 50% of the viewport width */
+    min-height: 200px;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}

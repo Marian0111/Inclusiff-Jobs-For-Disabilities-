@@ -1,0 +1,23 @@
+server:
+  port: 10003
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+    url: jdbc:h2:mem:enterprise
+
+  h2:
+    console:
+      enabled: true
+
+  flyway:
+    locations: classpath:db/migration
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
